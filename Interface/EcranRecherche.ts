@@ -10,7 +10,7 @@ export class EcranRecherche {
     const isbn = await question("ISBN à rechercher : ");
     const livre = this.gestionnaire.rechercherLivre(isbn);
 
-    if (livre) console.log("✓ Livre trouvé :", livre.afficherInfo());
+    if (livre) console.log("✅ Livre trouvé :", livre.afficherInfo());
     else console.log("❌ Aucun livre trouvé");
   }
 }

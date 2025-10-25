@@ -32,6 +32,8 @@ npm install
 Lancer le programme principal :
 
 ```bash
+npm start
+ou
 npx ts-node Interface/EcranPrincipal.ts
 ```
 

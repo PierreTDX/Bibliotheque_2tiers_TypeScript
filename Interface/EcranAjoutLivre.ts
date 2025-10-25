@@ -20,6 +20,6 @@ export class EcranAjoutLivre {
 
     const livre = new Livre(isbn, titre, auteur, annee);
     const ok = this.gestionnaire.ajouterLivre(livre);
-    console.log(ok ? "✓ Livre ajouté avec succès" : "❌ Erreur ou ISBN déjà existant");
+    console.log(ok ? "✅ Livre ajouté avec succès" : "❌ Erreur ou ISBN déjà existant");
   }
 }
